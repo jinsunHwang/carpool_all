@@ -1,4 +1,4 @@
-# carpool_all
+# 데이터베이스 
 
 create SEQUENCE seq_board;
 
@@ -35,7 +35,7 @@ create table car_message (
     class_class_id number(11) default null    
 );
 
-drop table car_message;
+
 
 alter table car_message add constraint pk_message
 primary key (message_id);
